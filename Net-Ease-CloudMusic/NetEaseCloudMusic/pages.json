@@ -1,0 +1,265 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		}
+	    ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/toplist/toplist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "排行榜",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/toplistdetail/toplistdetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+            
+        },
+		{
+			"path" : "pages/song/song",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/index/pages/singerList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "歌手广场",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/pages/dailyRecommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "每日推荐",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/index/pages/songList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "歌单广场",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/playmv/playmv",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/singerDetail/singerDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "歌手详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/singerDetail/allList/allList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/comment/comment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/child/favorite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "喜欢的音乐",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/child/followsinger",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注歌手",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/child/myupdates",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的动态",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/child/recentplay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "最近播放",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/child/songlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "歌单管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/child/focusfans",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "粉丝与关注",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },{
+			 "path" : "pages/square/square",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "广场",
+				 "enablePullDownRefresh": false
+			}
+		},{
+            "path" : "pages/square/squrdetail",
+			"style" :      
+			{
+			    "navigationBarTitleText": "动态详情",
+			    "enablePullDownRefresh": false
+			}
+        },{
+            "path" : "pages/square/sharededail",
+			"style" :      
+			{
+			    "navigationBarTitleText": "转发动态",
+			    "enablePullDownRefresh": false
+			}
+        }
+        ,{
+            "path" : "pages/square/playvideo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83", // 字体选中前颜色
+		"selectedColor": "#e7a924", // 字体选中颜色
+		"borderStyle": "black", // 导航栏边框颜色
+		"backgroundColor": "#ffffff", // 导航栏背景颜色
+		"list": [{
+			"pagePath": "pages/index/index", // 页面路径
+			"iconPath": "static/tabbar-icon/index.png", // 选中前icon
+			"selectedIconPath": "static/tabbar-icon/index.png", // 选中后icon
+			"text": "首页"
+		}, {
+			"pagePath": "pages/square/square",
+			"iconPath": "static/tabbar-icon/square.png",
+			"selectedIconPath": "static/tabbar-icon/square.png",
+			"text": "广场"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tabbar-icon/my.png",
+			"selectedIconPath": "static/tabbar-icon/my.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

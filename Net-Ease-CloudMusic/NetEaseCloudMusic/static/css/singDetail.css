@@ -1,0 +1,85 @@
+.content{
+	background-color: #f9f9f9;
+}
+/* 背景cover */
+.cover{
+	display: block;
+	height: 400rpx;
+	width: 100%;
+}
+.cover image{
+	display: block;
+	width: 100%;
+}
+.detail{
+	position: relative;
+	top: -40rpx;
+	font-size: 24rpx;
+	display: block;
+	height: 220rpx;
+	width: 500rpx;
+	background-color: #fff;
+	margin: 0rpx auto;
+	padding: 60rpx 40rpx 0rpx 40rpx;
+	z-index: 10;
+	text-align: center;
+	border-radius: 20rpx;
+	color: gray;
+	/* line-height: 300rpx; */
+}
+.detail .avatar{
+	position: absolute;
+	top: 0rpx;
+	left: 250rpx;
+	height: 100rpx;
+	width: 100rpx;
+	border-radius:50rpx;
+}
+.detail .avatar image{
+	top: -50rpx;
+	height: 100rpx;
+	width: 100rpx;
+	border-radius:50rpx;
+	
+}
+.detail .name{
+	font-size: 36rpx;
+	font-weight: 700;
+	color: #000;
+}
+.detail .desc{
+	margin: 20rpx 0;
+}
+.detail .follow{
+	margin-top: 50rpx;
+	margin-left: 200rpx;
+	width: 100rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	border: 1px solid red;
+	border-radius: 20rpx;
+	color: red;
+	font-size: 20rpx;
+}
+.detail .followed{
+	margin-top: 50rpx;
+	margin-left: 200rpx;
+	width: 100rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 20rpx;
+	color: gray;
+	font-size: 20rpx;
+}
+.songList{
+	margin-top: -80rpx;
+	/* background-color: #fff; */
+}
+.more{
+	margin-left: 300rpx;
+	color: gray;
+	font-size: 30rpx;
+}

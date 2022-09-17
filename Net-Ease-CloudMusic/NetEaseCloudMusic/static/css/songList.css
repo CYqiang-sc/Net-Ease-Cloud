@@ -1,0 +1,189 @@
+.content{
+	background-color: #f4f4f4;
+}
+
+/* 导航区域 */
+.navScroll {
+  display: flex;
+  white-space: nowrap;
+  height: 80rpx;
+}
+.navScroll .navItem {
+  display: inline-block;
+  padding: 0 26rpx;
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  box-sizing: border-box;
+}
+.navScroll .navContent {
+  height: 60rpx;
+  box-sizing: border-box;
+}
+
+
+.active {
+ position: relative;
+  font-size: 34rpx;
+  font-weight: 700;
+}
+.line{
+	position: absolute;
+	bottom: 10rpx;
+	left: -10rpx;
+	display: inline-block;
+	height: 10rpx;
+	width: 90rpx;
+	background-image: linear-gradient(to right, pink , red);
+	opacity: 0.7;
+	border-radius: 5rpx;
+}
+/* 下拉选择 */
+.more{
+	display: inline-block;
+	position: absolute;
+	height: 50rpx;
+	width: 50rpx;
+	box-shadow:-5px 0 10px -5px #ababab;
+	float: right;
+	top: -0rpx;
+	right: 0rpx;
+	line-height: 50rpx;
+	text-align: center;
+	background-color: #f4f4f4;
+	color: gray;
+}
+.select-down{
+	position: absolute;
+	top: 50rpx;
+	right: 0;
+	float: right;
+	width: 300rpx;
+	height: 400rpx;
+	background: #FFFFFF;
+	opacity: 1;
+	margin-top: 2rpx;
+	border-radius: 14rpx;
+	padding-top: 10rpx;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+.select-down-item{
+	padding: 10rpx;
+	font-size: 30rpx;
+	color: #000;
+	width: 360rpx;
+	border-radius: 14rpx;
+	margin-left: 26rpx;
+	border-bottom: 2rpx solid #F0F0F0;
+}
+.select-down-item:hover{
+	background-color: #bfbfbf;
+}
+/* 标签推荐歌单 */
+.songList{
+	height: 900rpx;
+	width: 100%;
+}
+.list-item{
+		position: relative;
+		float: left;
+		width: 200rpx;
+		height: 280rpx;
+		margin-left: 37.5rpx;
+		border-radius: 20rpx;
+		text-align: center;
+		white-space: nowrap; 
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-bottom: 20rpx;
+} 
+.songList .title{
+	padding-left: 40rpx;
+	margin-bottom: 10rpx;
+	display: block;
+	width: 100%;
+	font-size: 26rpx;
+	font-weight: 700;
+	/* color: gray; */
+}
+.playCount{
+	position: absolute;
+	padding-right: 10rpx;
+	padding-bottom: 5rpx;
+	text-align: left;
+	height: 30rpx;
+	top: 10rpx;
+	right: 5rpx;
+	line-height: 30rpx;
+	border-radius: 30rpx;
+	background-color: rgba(233, 233, 233, 0.5);
+}
+.playCount text{
+	margin-left: 30rpx;
+	font-size: 20rpx;
+	color: #f4f4f4;
+}
+.playCount img{
+	position: absolute;
+	/* margin-right: 15rpx; */
+	top: 7rpx;
+	left: 10rpx;
+	height: 20rpx;
+	width: 20rpx;
+}
+.list-name{
+	white-space: pre-line;
+	font-size: 26rpx;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.navigator-hover{
+	background: #d3d3d3 ;
+}
+/* 精品推荐歌单样式 */
+.highLevel{
+	margin-top: 50rpx;
+	padding: 20rpx 40rpx 0 40rpx;
+	height: 380rpx;
+}
+.highLevel .title{
+	/* padding-left: 20rpx; */
+	margin-bottom: 20rpx;
+	font-size: 26rpx;
+	font-weight: 700;
+}
+.highLevel-songlist {
+		white-space: nowrap;
+		display: flex;
+		height: 300rpx;
+}
+.songlist-item {
+		width: 200rpx;
+		height: auto;
+		display: inline-block;
+		margin-right: 20rpx;
+}
+
+.songlist-item image {
+		box-sizing: content-box;
+		width: 200rpx;
+		height: 200rpx;
+		box-shadow: 0rpx -22rpx 5rpx -14rpx #ddd;
+		border-radius: 20rpx;
+	}
+
+.songlist-item .txt {
+		white-space: pre-line;
+		text-overflow: ellipsis;
+		width: 200rpx;
+		font-size: 26rpx;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}

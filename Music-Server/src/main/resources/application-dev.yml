@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ENC(/TjlFthBKSIYDvXR10hJQqJLKTDeM72dDpffRr+E0fveuESr+x3cv5iZ7bkGL3YrHCMSt7nNO8QZIX+EuNkExnOGcxPPkmTxSas/pqrH2ie/eq/EVT6qs8O6fod+a1R6knciwFnvrHPoKv35VEK8zVem6c6WY2qlo0KJm1Yi9cvq+AVUA5gLaN+3ESFG+Jmk71zAE4cEHmP+l2ubCIFxfw==)
+    username: ENC(VpQ3Uxg+srw2yKqXUgmP2Q==)
+    password: ENC(jqg0o17QLg+7d3whcMLUaw==)
+  redis:
+    host: localhost
+    port: 6379
+
+logging:
+  config: classpath:log4j2-spring.xml
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+
+jasypt:
+  encryptor:
+    password: FangMaoYu

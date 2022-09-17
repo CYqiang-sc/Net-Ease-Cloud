@@ -1,0 +1,110 @@
+.content{
+	background-color: rgb(245,245,245);
+	height: 1000rpx;
+}
+.navScroll{
+	width: 100%;
+	height: 140rpx;
+	padding-top: 20rpx;
+	background-color: #fff;
+}
+.area{
+	position: absolute;
+	display: flex;
+	white-space: nowrap;
+	top: 10rpx;
+	width: 750rpx;
+	height: 50rpx;
+	margin-top: 5rpx;
+}
+.area-item{
+	padding: 0 20rpx;
+	text-align: center;
+	line-height: 50rpx;
+	height: 50rpx;
+	margin-left: 15rpx;
+	margin-right: 15rpx;
+	display: inline-block;
+	border-radius: 20rpx;
+	position: relative;
+}
+.type{
+	position: absolute;
+	display: flex;
+	white-space: nowrap;
+	top: 80rpx;
+	width: 750rpx;
+	height: 50rpx;
+	margin-top: 5rpx;
+}
+.type-item{
+	padding: 0 20rpx;
+	text-align: center;
+	line-height: 50rpx;
+	height: 50rpx;
+	margin-left: 15rpx;
+	margin-right: 15rpx;
+	display: inline-block;
+	border-radius: 20rpx;
+	position: relative;
+}
+.active{
+	color: red;
+}
+.hotsinger{
+	display: block;
+	padding-left: 20rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	font-size: 22rpx;
+	color: darkgray;
+}
+.singerList{
+	padding: 10rpx 20rpx;
+	background-color: #fff;
+}
+.singerList .singer-item{
+	display: block;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-bottom: 20rpx;
+	/* border-bottom: 1px solid rgb(0, 0, 0, 0.3); */
+}
+.singer-item .avatar image{
+	/* display: inline-block; */
+	float: left;
+	height: 100rpx;
+	width: 100rpx;
+	border-radius: 50rpx;
+}
+.singer-item .name{
+	font-size: 32rpx;
+	text-align: center;
+	margin-left: 20rpx;
+}
+.singer-item  .follow{
+	width: 100rpx;
+	height: 40rpx;
+	float: right;
+	margin-top: 30rpx;
+	margin-right: 0rpx;
+	line-height: 40rpx;
+	text-align: center;
+	border: 1px solid red;
+	border-radius: 20rpx;
+	color: red;
+	font-size: 20rpx;
+}
+.followed{
+	width: 100rpx;
+	height: 40rpx;
+	float: right;
+	margin-top: 30rpx;
+	margin-right: 0rpx;
+	line-height: 40rpx;
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 20rpx;
+	color: gray;
+	font-size: 20rpx;
+}

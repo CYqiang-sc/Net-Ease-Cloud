@@ -1,0 +1,61 @@
+	.videoPlayer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.video {
+		width: 100%;
+		height: 50%;
+	}
+	
+	.info{
+		position: relative;
+		height: 80rpx;
+		line-height: 80rpx;
+		padding-left: 20rpx;
+	}
+	.info .img{
+		float: left;
+		display: inline-block;
+		margin-right: 20rpx;
+		
+	}
+	.info image{
+		display: inline-block;
+		height: 80rpx;
+		width: 80rpx;
+		border-radius: 40rpx;
+		animation: circle 10s linear infinite;
+	}
+	@keyframes circle {
+	      0% {
+	        transform:  rotate(0);
+	      }
+	      100% {
+	        transform:  rotate(360deg);
+	      }
+	    }
+	.info .song{
+		display: inline-block;
+		/* margin-right: 200rpx; */
+		width: 400rpx;
+		white-space:nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 32rpx;
+		font-weight: 600;
+		
+	}
+	.info .singer{
+		width: 200rpx;
+		white-space:nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: inline-block;
+		font-size: 26rpx;
+		font-weight: 500;
+		color: gray;
+	}

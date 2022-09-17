@@ -1,0 +1,122 @@
+.content{
+	/* color: red; */
+}
+/* 头部样式 */
+.header{
+	position: relative;
+	height: 100rpx;
+	padding: 20rpx 20rpx;
+}
+.header image:first-child{
+	position: absolute;
+	left: 20rpx;
+	height: 100rpx;
+	width: 100rpx;
+	border-radius: 10rpx;
+}
+.header .more{
+	position: absolute;
+	right: 20rpx;
+	top: 50rpx;
+	height: 40rpx;
+	width: 40rpx;
+}
+.header text{
+	font-size: 28rpx;
+	font-weight: 600;
+	color: #393939;
+	width: 90%;
+	position: absolute;
+	left: 140rpx;
+	top: 50rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.line{
+	height: 10rpx;
+	width: 100%;
+	background-color: #F8F8F8;
+}
+/* 评论区样式 */
+.comment{
+	height: auto;
+	padding: 20rpx 20rpx;
+}
+.title{
+	margin-bottom: 20rpx;
+	height: 50rpx;
+	width: 100%;
+}
+.title .t{
+	float: left;
+	font-size: 32rpx;
+	font-weight: 700;
+	color: #393939;
+	/* margin-right: 60%; */
+}
+.title .t1{
+	float: right;
+	font-size: 30rpx;
+	color: gray;
+	margin-left: 20rpx;
+}
+.active {
+	font-weight: 700;
+	color: #393939;
+}
+
+.comment-item{
+	position: relative;
+	display: block;
+	height: auto;
+	width: 100%;
+	margin: 10rpx 0;
+}
+.comment-item image{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50rpx;
+}
+.comment-item .name{
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	margin-left: 10rpx;
+	font-size: 28rpx;
+	font-weight: 700;
+	color: #393939;
+}
+.comment-item .time{
+	position: absolute;
+	display: inline-block;
+	top: 40rpx;
+	margin-top: 14rpx;
+	margin-left: 10rpx;
+	font-size: 24rpx;
+	color: gray;
+}
+.comment-item .like{
+	position: absolute;
+	display: inline-block;
+	right: 40rpx;
+	font-size: 20rpx;
+	color: gray;
+}
+.zan-icon{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	right: 0;
+	font-size: 20rpx;
+}
+.zan-icon image{
+	height: 36rpx;
+	width: 36rpx;
+}
+.comment-item .content{
+	margin-left: 110rpx;
+	padding-bottom: 20rpx;
+	font-size: 26rpx;
+	color: #393939;
+	border-bottom: 1px solid rgba(208,208,208,0.3);
+}
